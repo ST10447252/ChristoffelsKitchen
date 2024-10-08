@@ -4,12 +4,12 @@
     "slug": "ChristoffelsKitchen",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/CKlogo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/CKlogo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#16423C"
     },
     "ios": {
       "supportsTablet": true
@@ -22,6 +22,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "assets": [
+      "./assets/fonts"
+    ],
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
